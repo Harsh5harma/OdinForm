@@ -73,7 +73,7 @@ table {
 .dot{
     font-size:64px;
     margin-top:11vh;
-    margin-left:18.07vw;
+    margin-left:48%;
 }
 .name{
     margin-top:3.0vh;
@@ -128,8 +128,8 @@ form{
 input[type="text"],input[type="password"], input[type="number"]{
     border-radius: 15px;
     border: 3px solid rgba(91, 70, 70, 1);
-    width: 662px;
-    height: 35px;
+    width: 26.4vw;
+    height: 3.24vh;
     font-size: 19px;
     padding-left: 15px;
     padding-right: 15px;
@@ -175,4 +175,7 @@ label>button{
   label>button:active{
     box-shadow: inset 3px 3px 6px #1311118a,
                 inset -3px -3px 6px #1311118a;
+  }
+  .error:invalid::after{
+    content: "Invalid";
   }
