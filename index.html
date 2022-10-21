@@ -18,7 +18,40 @@
             <div class="tagline">It's Now. Or Never.</div>
         </div>
         <div class="second_half">
-            <form action="javascript:void(0)" class="myForm"></form>
+            <div class="story">Join our service today to find hundreds of ways to end your life.
+                Thousands of brave souls have made it to heaven (or hell) with our help.
+                 So hop on soldier! Life ain't all sunshine anyway.</div>
+            <div class="myForm">
+                <div class="sup">Sign Up:</div>
+                <form action="javascript:void(0)">
+                        <ul>
+                            <li>
+                                <label for="full_name"><p style="margin-bottom:0.5em;">Full Name:</p></label>
+                                <input type="text" id="full_name" name="full_name" placeholder="John Doe" required>
+                            </li>
+                            <li>
+                                <label for="age" ><p style="margin-bottom:0.5em;">Age:</p></label>
+                                <input type="number" step="1" id="age" name="age" placeholder="23" min="0" max="100">
+                            </li>
+                            <li>
+                                <p style="margin-bottom:0.5em;">Gender:</p>
+                                <label for="g1"><input type="radio" id="g1" name="gender"> Male &nbsp;</label>
+                                <label for="g2"><input type="radio" id="g2" name="gender"> Female &nbsp;</label>
+                                <label for="g3"><input type="radio" id="g3" name="gender"> Other &nbsp;</label>
+                            </li>
+                            <li>
+                                <label for="psswd" ><p style="margin-bottom:0.5em;">Password:</p></label>
+                                <input class="error" type="password" id="psswd" name="password" placeholder="********" >
+                            </li>
+                            <li>
+                                <label for="cpsswd" ><p style="margin-bottom:0.5em;">Confirm Password:</p></label>
+                                <input class = "error" type="password" id="cpsswd" name="confirm_password" placeholder="********">
+                            </li>
+                        </ul>
+                </form>
+                
+            </div>
+        <div class="butt"><label for="submit"><button id="submit" type="submit">Submit</label></div>
         </div>
     </div>
 </body>

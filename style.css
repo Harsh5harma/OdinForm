@@ -62,7 +62,7 @@ table {
     margin-top:7vh;
     height: min-content;
     width: inherit;
-    background-color: rgba(65, 66, 65, 0.353);
+    background-color: rgba(65, 66, 65, 0.315);
 }
 .thelogo{
     margin-left:14.8vw;
@@ -88,9 +88,91 @@ table {
     font-style: italic;
     font-weight: bold;
 }
-/*first half's css ends here*/
+/*first half's css ends here
+second half's css begins*/
+
 .second_half{
-    background-color: rgba(9, 14, 22, 1);
+    background-color: rgba(9, 14, 22, 0.963);
     width: 67.5vw;
     color:var(--txt-color);
 }
+.story{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    width:42.9vw;
+    height:9.5vh;
+    margin-top:7.1vh;
+    margin-left:9.3vw;
+}
+.sup{
+    font-size: 32px;
+    font-weight: 800;
+    margin-left: 9.1vw;
+    margin-top:8.5vh;
+    margin-bottom: 3.42vh;
+}
+form{
+    font-size: 22px;
+    margin-left:2vw;
+    padding-left:7.34vw;
+    width: 46vw;
+    text-align: left;
+}
+.myForm{
+    padding-bottom: 8.33vh;
+    background-color: rgba(9, 14, 22, 1);
+    border:solid 1px rgba(0, 0, 0, 0.164);
+    box-shadow: 0px 3px rgba(255, 255, 255, 0.444);
+}
+input[type="text"],input[type="password"], input[type="number"]{
+    border-radius: 15px;
+    border: 3px solid rgba(91, 70, 70, 1);
+    width: 662px;
+    height: 35px;
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+}
+input:hover{
+    background-color: rgba(255, 255, 255, 0.935);
+}
+input:not(input[type="radio"]):focus{
+    border-color:blue;
+    box-shadow: 4px 4px rgba(120, 10, 10, 0.729);
+}
+form li + li {
+    margin-top: 1em;
+  }
+input[type="password"]:invalid{
+    border-color: red;
+}
+.butt{
+    width: 13.8vw;
+    height:5.3vh;
+    margin-top: 3.42vh;
+    margin-left:9.34vw;
+}
+label>button{
+      color:black;
+      font-size: 22px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: rgba(197, 196, 194, 1);
+      font-weight: bold;
+      width:13.8vw;
+      height:5.3vh;
+      border:solid 2px rgba(91, 70, 70, 1);
+      letter-spacing: 1.3px;
+      transition: height 0.18s;
+  }
+  label>button:hover{
+      background-color:rgba(197, 196, 194, 0.861) ;
+      box-shadow: 0px 4px rgba(128, 128, 128, 0.361);
+      transform: scale(1.02);
+  }
+  label>button:active{
+    box-shadow: inset 3px 3px 6px #1311118a,
+                inset -3px -3px 6px #1311118a;
+  }
